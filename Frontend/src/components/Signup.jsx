@@ -16,7 +16,7 @@ const Signup = () => {
 
         try{
 
-            await axios.post("https://cinepulseapp.onrender.com/signup",{
+            await axios.post("https://cinepulseapp-3.onrender.com/signup",{
                 firstName,emailId,password
             })
             .then(result => {
